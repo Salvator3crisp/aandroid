@@ -1,0 +1,40 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# APK and build outputs
+*.apk
+*.aab
+*.ap_
+app/build/
+
+# Proguard
+proguard/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ
+*.ipr
+*.iws
+/out/
+
+# Kotlin
+.kotlin/

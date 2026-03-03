@@ -5,22 +5,18 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Intent
 import android.content.pm.ServiceInfo
-import android.hardware.display.DisplayManager
 import android.media.projection.MediaProjection
 import android.media.projection.MediaProjectionManager
 import android.os.Binder
 import android.os.Build
 import android.os.IBinder
-import android.util.DisplayMetrics
 import android.util.Log
-import android.view.WindowManager
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import androidx.lifecycle.LifecycleService
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.atomic.AtomicBoolean
 
 class ScreenMirrorService : LifecycleService() {
@@ -43,7 +39,6 @@ class ScreenMirrorService : LifecycleService() {
 
     private val binder = LocalBinder()
     private var mediaProjection: MediaProjection? = null
-    private var virtualDisplay: android.hardware.display.VirtualDisplay? = null
     private val speedLock = SpeedLockManager(this)
     private val isRunning = AtomicBoolean(false)
 
@@ -159,7 +154,7 @@ class ScreenMirrorService : LifecycleService() {
     }
 
     private fun pauseStream() {
-        try { virtualDisplay?.surface = null } catch (e: Exception) {}
+        com.drivemirror.ui.DriveMirrorCarScreen.getInstance()?.onProjectionStopped()
     }
 
     private fun resumeStream() {
@@ -171,8 +166,6 @@ class ScreenMirrorService : LifecycleService() {
 
         Log.i(TAG, "Stopping...")
 
-        runCatching { virtualDisplay?.release() }
-        virtualDisplay = null
         runCatching { mediaProjection?.stop() }
         mediaProjection = null
         speedLock.stop()
@@ -181,22 +174,6 @@ class ScreenMirrorService : LifecycleService() {
         com.drivemirror.ui.DriveMirrorCarScreen.getInstance()?.onProjectionStopped()
 
         Log.i(TAG, "Stopped")
-    }
-
-    private fun getDisplayMetrics(): DisplayMetrics {
-        val wm = getSystemService(WINDOW_SERVICE) as WindowManager
-        val metrics = DisplayMetrics()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            wm.currentWindowMetrics.bounds.let {
-                metrics.widthPixels = it.width()
-                metrics.heightPixels = it.height()
-            }
-        } else {
-            @Suppress("DEPRECATION")
-            wm.defaultDisplay.getRealMetrics(metrics)
-        }
-        metrics.densityDpi = resources.displayMetrics.densityDpi
-        return metrics
     }
 
     private fun createNotificationChannel() {
