@@ -1,0 +1,12 @@
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\service\DriveMirrorMediaService.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\encoder\H264Encoder.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\service\SpeedLockManager.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\service\TouchInjectionService.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\DriveMirrorApp.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\transport\UsbTransportLayer.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\service\ScreenMirrorService.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\ui\DriveMirrorCarScreen.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\service\DriveMirrorAutoService.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\ui\MainActivity.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\transport\UsbReceiver.kt
+C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\java\com\drivemirror\encoder\AdaptiveBitrateController.kt

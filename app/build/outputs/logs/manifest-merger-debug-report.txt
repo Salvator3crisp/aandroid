@@ -1,0 +1,511 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:2:1-122:12
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:2:1-122:12
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\Salvatore\.gradle\caches\transforms-4\d2e1727ba2c94072bc441acb2ce6af64\transformed\jetified-viewbinding-8.3.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffae41519016786274e1d265fa07d0dd\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\cf8f6c72633f4886802e3eb381cd1769\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Salvatore\.gradle\caches\transforms-4\7965c7a3c9b86967dc0dd9222843fe67\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\eed39ac212544363199169d0f8513040\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:17:1-41:12
+MERGED from [androidx.media:media:1.7.0] C:\Users\Salvatore\.gradle\caches\transforms-4\276a2f748bd79e2a78dc5c9cd60cede2\transformed\media-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a82ca7dd71ff972de42ebf8d45972634\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\f29434653fb48e582b99da7af3b56f60\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Salvatore\.gradle\caches\transforms-4\d5acbff51f24348d65378ad6d095841e\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Salvatore\.gradle\caches\transforms-4\b997cc6ee64fdbfe187b5dd82f8d5425\transformed\jetified-activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\4f2e2eff0cd23e78cd365eb88cedaf37\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\14aae52253c9e5c58443cfa29d9f6807\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\70719a66576086847f9f4df9d35bd019\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\3c9315f97bd75bf86b9f683dc86bd83c\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2a549e2e6e816ed7d42e23ea3edcb4cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7886ad1513124618c9e8534436244614\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e8173288ca22ae57b53d0453eda965fe\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\21bd49f1363af2272887da6ece64ff23\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a7dd3b59f1f7634f733de8da95460ecb\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\57995fb23667cb5b2caa202e3e712590\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d8ac508931f3d2ac5ceb1d1ef6cfcd09\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Salvatore\.gradle\caches\transforms-4\9196a01287bfe07a536a2919de80e235\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\edc6f709cfdac682cbe2e760cc66bc5b\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\8eacbc5b960cd021c51168b72efd4081\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\4b1865067f55a459ad09559621c24d0a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\bb1da1983aa93c0de72b5ad315327a7d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\dfcb182a8a404c2e84abdbe9c1e1fd74\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\0d37c9beba17403d9ce9fdfe76555380\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\921b3599f55a8f7a8e6ff9f78693d16a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7f1552dd6c6ba2ac557520aaa3b9e0c0\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Salvatore\.gradle\caches\transforms-4\2da130094b4468f0cbd477f19ba1aadc\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\558e5c8b73cb7a1c584f02db63daed6b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\febb6047b4ff6522a79acc68efc816a9\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\52f005cf8ca776d9b7fb180d241ffa61\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\dd0383df5ee4b5fb10e19da43956feaf\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\901d3f6794d1e6098846736b25d55542\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e806310892b1c4e63f75581995b9c02a\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9c4ac7f4b56b40e436191954c1f442b9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\c9ae7649540c1b5f0a2b04228072a34b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffba6c967e3970ad4c74dda83e0f6c0a\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:7:5-94
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:7:22-91
+uses-permission#android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:8:5-94
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:8:22-91
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:9:5-92
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:9:22-89
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:13:22-74
+uses-permission#android.permission.USB_PERMISSION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:16:5-73
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.HARDWARE_TEST
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:17:22-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:22:22-82
+uses-permission#androidx.car.app.NAVIGATION_TEMPLATES
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:25:5-77
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:25:22-74
+uses-permission#androidx.car.app.ACCESS_SURFACE
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:26:22-68
+uses-feature#android.hardware.usb.host
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:5-87
+	android:required
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:60-84
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:19-59
+uses-feature#android.hardware.type.automotive
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:5-94
+	android:required
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:67-91
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:19-66
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:5-91
+	android:required
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:64-88
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:19-63
+application
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:33:5-120:19
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:33:5-120:19
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffae41519016786274e1d265fa07d0dd\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffae41519016786274e1d265fa07d0dd\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Salvatore\.gradle\caches\transforms-4\7965c7a3c9b86967dc0dd9222843fe67\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Salvatore\.gradle\caches\transforms-4\7965c7a3c9b86967dc0dd9222843fe67\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:30:5-39:19
+MERGED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:30:5-39:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\52f005cf8ca776d9b7fb180d241ffa61\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\52f005cf8ca776d9b7fb180d241ffa61\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:37:9-41
+	android:roundIcon
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:38:9-54
+	tools:targetApi
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:42:9-29
+	android:icon
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:36:9-43
+	android:allowBackup
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:35:9-36
+	android:theme
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:40:9-49
+	android:enableOnBackInvokedCallback
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:41:9-51
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:34:9-39
+meta-data#com.google.android.gms.car.application
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:45:9-47:59
+	android:resource
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:46:13-66
+activity#com.drivemirror.ui.MainActivity
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:50:9-70:20
+	android:screenOrientation
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:54:13-52
+	android:launchMode
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:53:13-44
+	android:exported
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:52:13-36
+	android:configChanges
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:55:13-133
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:51:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:57:13-60:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:59:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:63:13-65:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:64:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:67:13-69:57
+	android:resource
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:69:17-54
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:68:17-79
+service#com.drivemirror.service.DriveMirrorMediaService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:73:9-81:19
+	android:exported
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:75:13-36
+	tools:ignore
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:77:13-43
+	android:foregroundServiceType
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:76:13-58
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:74:13-60
+intent-filter#action:name:android.media.browse.MediaBrowserService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:78:13-80:29
+action#android.media.browse.MediaBrowserService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:79:17-83
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:79:25-80
+service#com.drivemirror.service.DriveMirrorAutoService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:84:9-93:19
+	android:exported
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:86:13-36
+	tools:ignore
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:88:13-43
+	android:foregroundServiceType
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:87:13-58
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:85:13-59
+intent-filter#action:name:androidx.car.app.CarAppService+category:name:androidx.car.app.category.NAVIGATION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:89:13-92:29
+action#androidx.car.app.CarAppService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:90:17-73
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:90:25-70
+category#androidx.car.app.category.NAVIGATION
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:91:17-81
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:91:27-78
+meta-data#androidx.car.app.minCarApiLevel
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:95:9-97:33
+	android:value
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:97:13-30
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:96:13-59
+service#com.drivemirror.service.ScreenMirrorService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:100:9-104:44
+	android:exported
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:102:13-37
+	android:stopWithTask
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:104:13-41
+	android:foregroundServiceType
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:103:13-60
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:101:13-56
+service#com.drivemirror.service.TouchInjectionService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:107:9-118:19
+	android:exported
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:109:13-36
+	tools:ignore
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:111:13-43
+	android:permission
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:110:13-79
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:108:13-58
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:112:13-114:29
+action#android.accessibilityservice.AccessibilityService
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:113:17-92
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:113:25-89
+meta-data#android.accessibilityservice
+ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:115:13-117:65
+	android:resource
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:117:17-62
+	android:name
+		ADDED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:116:17-60
+uses-sdk
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\Salvatore\.gradle\caches\transforms-4\d2e1727ba2c94072bc441acb2ce6af64\transformed\jetified-viewbinding-8.3.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.3.2] C:\Users\Salvatore\.gradle\caches\transforms-4\d2e1727ba2c94072bc441acb2ce6af64\transformed\jetified-viewbinding-8.3.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffae41519016786274e1d265fa07d0dd\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffae41519016786274e1d265fa07d0dd\transformed\material-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\cf8f6c72633f4886802e3eb381cd1769\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\cf8f6c72633f4886802e3eb381cd1769\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Salvatore\.gradle\caches\transforms-4\7965c7a3c9b86967dc0dd9222843fe67\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Salvatore\.gradle\caches\transforms-4\7965c7a3c9b86967dc0dd9222843fe67\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\eed39ac212544363199169d0f8513040\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Salvatore\.gradle\caches\transforms-4\eed39ac212544363199169d0f8513040\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\Salvatore\.gradle\caches\transforms-4\276a2f748bd79e2a78dc5c9cd60cede2\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.7.0] C:\Users\Salvatore\.gradle\caches\transforms-4\276a2f748bd79e2a78dc5c9cd60cede2\transformed\media-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a82ca7dd71ff972de42ebf8d45972634\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a82ca7dd71ff972de42ebf8d45972634\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\f29434653fb48e582b99da7af3b56f60\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\f29434653fb48e582b99da7af3b56f60\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Salvatore\.gradle\caches\transforms-4\d5acbff51f24348d65378ad6d095841e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Salvatore\.gradle\caches\transforms-4\d5acbff51f24348d65378ad6d095841e\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Salvatore\.gradle\caches\transforms-4\b997cc6ee64fdbfe187b5dd82f8d5425\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Salvatore\.gradle\caches\transforms-4\b997cc6ee64fdbfe187b5dd82f8d5425\transformed\jetified-activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\4f2e2eff0cd23e78cd365eb88cedaf37\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\4f2e2eff0cd23e78cd365eb88cedaf37\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\14aae52253c9e5c58443cfa29d9f6807\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\14aae52253c9e5c58443cfa29d9f6807\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\70719a66576086847f9f4df9d35bd019\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\70719a66576086847f9f4df9d35bd019\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\3c9315f97bd75bf86b9f683dc86bd83c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\3c9315f97bd75bf86b9f683dc86bd83c\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2a549e2e6e816ed7d42e23ea3edcb4cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2a549e2e6e816ed7d42e23ea3edcb4cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7886ad1513124618c9e8534436244614\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7886ad1513124618c9e8534436244614\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e8173288ca22ae57b53d0453eda965fe\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e8173288ca22ae57b53d0453eda965fe\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\21bd49f1363af2272887da6ece64ff23\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\21bd49f1363af2272887da6ece64ff23\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a7dd3b59f1f7634f733de8da95460ecb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\a7dd3b59f1f7634f733de8da95460ecb\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\57995fb23667cb5b2caa202e3e712590\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\57995fb23667cb5b2caa202e3e712590\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d8ac508931f3d2ac5ceb1d1ef6cfcd09\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d8ac508931f3d2ac5ceb1d1ef6cfcd09\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Salvatore\.gradle\caches\transforms-4\9196a01287bfe07a536a2919de80e235\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Salvatore\.gradle\caches\transforms-4\9196a01287bfe07a536a2919de80e235\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\edc6f709cfdac682cbe2e760cc66bc5b\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\edc6f709cfdac682cbe2e760cc66bc5b\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\8eacbc5b960cd021c51168b72efd4081\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\8eacbc5b960cd021c51168b72efd4081\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\4b1865067f55a459ad09559621c24d0a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\4b1865067f55a459ad09559621c24d0a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\bb1da1983aa93c0de72b5ad315327a7d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\bb1da1983aa93c0de72b5ad315327a7d\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\dfcb182a8a404c2e84abdbe9c1e1fd74\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\dfcb182a8a404c2e84abdbe9c1e1fd74\transformed\jetified-lifecycle-service-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\0d37c9beba17403d9ce9fdfe76555380\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\0d37c9beba17403d9ce9fdfe76555380\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\921b3599f55a8f7a8e6ff9f78693d16a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\921b3599f55a8f7a8e6ff9f78693d16a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7f1552dd6c6ba2ac557520aaa3b9e0c0\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7f1552dd6c6ba2ac557520aaa3b9e0c0\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Salvatore\.gradle\caches\transforms-4\2da130094b4468f0cbd477f19ba1aadc\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Salvatore\.gradle\caches\transforms-4\2da130094b4468f0cbd477f19ba1aadc\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\558e5c8b73cb7a1c584f02db63daed6b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\558e5c8b73cb7a1c584f02db63daed6b\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\febb6047b4ff6522a79acc68efc816a9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\febb6047b4ff6522a79acc68efc816a9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\52f005cf8ca776d9b7fb180d241ffa61\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\52f005cf8ca776d9b7fb180d241ffa61\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\dd0383df5ee4b5fb10e19da43956feaf\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\dd0383df5ee4b5fb10e19da43956feaf\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\901d3f6794d1e6098846736b25d55542\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\901d3f6794d1e6098846736b25d55542\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e806310892b1c4e63f75581995b9c02a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\e806310892b1c4e63f75581995b9c02a\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9c4ac7f4b56b40e436191954c1f442b9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9c4ac7f4b56b40e436191954c1f442b9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\c9ae7649540c1b5f0a2b04228072a34b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\c9ae7649540c1b5f0a2b04228072a34b\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffba6c967e3970ad4c74dda83e0f6c0a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Salvatore\.gradle\caches\transforms-4\ffba6c967e3970ad4c74dda83e0f6c0a\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml
+queries
+ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:23:5-28:15
+provider#androidx.car.app.connection.provider
+ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:24:9-27:43
+	android:authorities
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:26:13-62
+	tools:ignore
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:27:13-40
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:25:13-64
+activity#androidx.car.app.CarAppPermissionActivity
+ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:31:9-34:75
+	android:exported
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:32:13-69
+receiver#androidx.car.app.notification.CarAppNotificationBroadcastReceiver
+ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:37:13-93
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Salvatore\.gradle\caches\transforms-4\97f483d320d4b52861ba79ae1bb53981\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.drivemirror.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.drivemirror.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/xml_device_filter.xml.flat",
+        "source": "com.drivemirror.app-main-37:/xml/device_filter.xml"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/xml_automotive_app_desc.xml.flat",
+        "source": "com.drivemirror.app-main-37:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/layout_activity_main.xml.flat",
+        "source": "com.drivemirror.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/xml_accessibility_service.xml.flat",
+        "source": "com.drivemirror.app-main-37:/xml/accessibility_service.xml"
+    },
+    {
+        "merged": "com.drivemirror.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.drivemirror.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0F">
+
+    <!-- SurfaceView per il video (inizialmente invisibile) -->
+    <SurfaceView
+        android:id="@+id/videoSurface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- Layout dei controlli per la modalità telefono -->
+    <LinearLayout
+        android:id="@+id/phoneControls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:visibility="visible">
+
+        <!-- Logo / Icon area -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🪞"
+            android:textSize="64sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DriveMirror"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Mirror via USB"
+            android:textSize="13sp"
+            android:textColor="#666680"
+            android:layout_marginBottom="40dp" />
+
+        <!-- Status card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#1A1A2E"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="32dp">
+
+            <ImageView
+                android:id="@+id/statusIcon"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="#FF6B35"
+                android:layout_marginEnd="12dp" />
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inizializzazione..."
+                android:textColor="#AAAACC"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <!-- Main action button -->
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="▶  Avvia Mirroring"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4F46E5"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Info footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MVP v1.0 — Solo video, 720p, USB"
+            android:textSize="11sp"
+            android:textColor="#444460"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

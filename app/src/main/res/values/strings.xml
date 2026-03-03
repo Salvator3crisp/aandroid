@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveMirror</string>
+    <string name="app_description">Screen mirroring via USB per Android Auto</string>
+    <string name="disclaimer_title">⚠️ Avviso Sicurezza</string>
+    <string name="disclaimer_text">Uso esclusivo durante la sosta o da parte del passeggero. L\'uso durante la guida è vietato e pericoloso.</string>
+    <string name="start_mirror">▶ Avvia Mirroring</string>
+    <string name="stop_mirror">⏹ Stop Mirroring</string>
+    <string name="status_connected">USB connesso — pronto</string>
+    <string name="status_disconnected">Nessun dispositivo USB</string>
+    <string name="status_active">🔴 Mirroring attivo</string>
+    <string name="status_speed_lock">🚗 In movimento — mirroring in pausa</string>
+    <string name="status_no_gps">GPS non disponibile</string>
+    <string name="accessibility_enable_prompt">Per il touch remoto, abilita DriveMirror in Impostazioni → Accessibilità</string>
+    <string name="accessibility_service_description">DriveMirror Touch Injection - Permette di controllare il telefono dal display dell\'auto</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Auto / AOA devices -->
+    <usb-device vendor-id="18d1" product-id="2d00" />
+    <usb-device vendor-id="18d1" product-id="2d01" />
+    <usb-device vendor-id="18d1" product-id="2d02" />
+    <usb-device vendor-id="18d1" product-id="2d03" />
+    <usb-device vendor-id="18d1" product-id="2d04" />
+    <usb-device vendor-id="18d1" product-id="2d05" />
+    <!-- Samsung -->
+    <usb-device vendor-id="04e8" />
+    <!-- Xiaomi -->
+    <usb-device vendor-id="2717" />
+    <!-- Motorola -->
+    <usb-device vendor-id="22b8" />
+    <!-- Generic -->
+    <usb-device vendor-id="18d1" />
+</resources>

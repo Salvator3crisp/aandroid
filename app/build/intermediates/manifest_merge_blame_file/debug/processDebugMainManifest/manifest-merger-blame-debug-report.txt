@@ -1,0 +1,340 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.drivemirror"
+4    android:versionCode="1"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permessi base -->
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:6:5-77
+12-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+13-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:7:5-94
+13-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:7:22-91
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+14-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:8:5-94
+14-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:8:22-91
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+15-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:9:5-92
+15-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:9:22-89
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:10:5-71
+16-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:11:5-68
+17-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+18-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:13:5-77
+19-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:13:22-74
+20
+21    <!-- Permessi USB -->
+22    <uses-permission android:name="android.permission.USB_PERMISSION" />
+22-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:16:5-73
+22-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:16:22-70
+23    <uses-permission android:name="android.permission.HARDWARE_TEST" />
+23-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:17:5-72
+23-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:17:22-69
+24
+25    <!-- Permessi Location per SpeedLock -->
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:20:5-79
+26-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:20:22-76
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:21:5-81
+27-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:21:22-78
+28    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+28-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:22:5-85
+28-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:22:22-82
+29
+30    <!-- Permessi Car App Library (obbligatori per NavigationTemplate + Surface) -->
+31    <uses-permission android:name="androidx.car.app.NAVIGATION_TEMPLATES" />
+31-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:25:5-77
+31-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:25:22-74
+32    <uses-permission android:name="androidx.car.app.ACCESS_SURFACE" />
+32-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:26:5-71
+32-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:26:22-68
+33
+34    <!-- Feature -->
+35    <uses-feature
+35-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:5-87
+36        android:name="android.hardware.usb.host"
+36-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:19-59
+37        android:required="false" />
+37-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:29:60-84
+38    <uses-feature
+38-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:5-94
+39        android:name="android.hardware.type.automotive"
+39-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:19-66
+40        android:required="false" />
+40-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:30:67-91
+41    <uses-feature
+41-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:5-91
+42        android:name="android.hardware.location.gps"
+42-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:19-63
+43        android:required="false" />
+43-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:31:64-88
+44
+45    <queries>
+45-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:23:5-28:15
+46        <provider
+46-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:24:9-27:43
+47            android:name="androidx.car.app.connection.provider"
+47-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:25:13-64
+48            android:authorities="androidx.car.app.connection" />
+48-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:26:13-62
+49    </queries>
+50
+51    <permission
+51-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+52        android:name="com.drivemirror.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="com.drivemirror.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+56
+57    <application
+57-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:33:5-120:19
+58        android:name="com.drivemirror.DriveMirrorApp"
+58-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:34:9-39
+59        android:allowBackup="false"
+59-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:35:9-36
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.12.0] C:\Users\Salvatore\.gradle\caches\transforms-4\9fca2ca22b974e20522c5c33984aac76\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:enableOnBackInvokedCallback="true"
+62-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:41:9-51
+63        android:extractNativeLibs="false"
+64        android:icon="@mipmap/ic_launcher"
+64-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:36:9-43
+65        android:label="@string/app_name"
+65-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:37:9-41
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:38:9-54
+67        android:supportsRtl="true"
+67-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:39:9-35
+68        android:theme="@style/Theme.DriveMirror" >
+68-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:40:9-49
+69
+70        <!-- META-DATO PER ANDROID AUTO (OBBLIGATORIO) -->
+71        <meta-data
+71-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:45:9-47:59
+72            android:name="com.google.android.gms.car.application"
+72-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:46:13-66
+73            android:resource="@xml/automotive_app_desc" />
+73-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:47:13-56
+74
+75        <!-- ATTIVITÀ PRINCIPALE -->
+76        <activity
+76-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:50:9-70:20
+77            android:name="com.drivemirror.ui.MainActivity"
+77-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:51:13-44
+78            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|uiMode|keyboard|keyboardHidden|navigation"
+78-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:55:13-133
+79            android:exported="true"
+79-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:52:13-36
+80            android:launchMode="singleTask"
+80-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:53:13-44
+81            android:screenOrientation="unspecified" >
+81-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:54:13-52
+82            <intent-filter>
+82-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:57:13-60:29
+83                <action android:name="android.intent.action.MAIN" />
+83-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:58:17-69
+83-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:58:25-66
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+85-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:59:17-77
+85-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:59:27-74
+86            </intent-filter>
+87
+88            <!-- USB Attach -->
+89            <intent-filter>
+89-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:63:13-65:29
+90                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+90-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:64:17-90
+90-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:64:25-87
+91            </intent-filter>
+92
+93            <meta-data
+93-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:67:13-69:57
+94                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+94-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:68:17-79
+95                android:resource="@xml/device_filter" />
+95-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:69:17-54
+96        </activity>
+97
+98        <!-- SERVIZIO MEDIABROWSER PER ANDROID AUTO (visibilità nella lista app) -->
+99        <service
+99-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:73:9-81:19
+100            android:name="com.drivemirror.service.DriveMirrorMediaService"
+100-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:74:13-60
+101            android:exported="true"
+101-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:75:13-36
+102            android:foregroundServiceType="mediaPlayback" >
+102-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:76:13-58
+103            <intent-filter>
+103-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:78:13-80:29
+104                <action android:name="android.media.browse.MediaBrowserService" />
+104-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:79:17-83
+104-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:79:25-80
+105            </intent-filter>
+106        </service>
+107
+108        <!-- SERVIZIO CAR APP PER ANDROID AUTO (rendering video) -->
+109        <service
+109-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:84:9-93:19
+110            android:name="com.drivemirror.service.DriveMirrorAutoService"
+110-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:85:13-59
+111            android:exported="true"
+111-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:86:13-36
+112            android:foregroundServiceType="mediaPlayback" >
+112-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:87:13-58
+113            <intent-filter>
+113-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:89:13-92:29
+114                <action android:name="androidx.car.app.CarAppService" />
+114-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:90:17-73
+114-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:90:25-70
+115
+116                <category android:name="androidx.car.app.category.NAVIGATION" />
+116-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:91:17-81
+116-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:91:27-78
+117            </intent-filter>
+118        </service>
+119
+120        <meta-data
+120-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:95:9-97:33
+121            android:name="androidx.car.app.minCarApiLevel"
+121-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:96:13-59
+122            android:value="1" />
+122-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:97:13-30
+123
+124        <!-- Servizio di mirroring -->
+125        <service
+125-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:100:9-104:44
+126            android:name="com.drivemirror.service.ScreenMirrorService"
+126-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:101:13-56
+127            android:exported="false"
+127-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:102:13-37
+128            android:foregroundServiceType="mediaProjection"
+128-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:103:13-60
+129            android:stopWithTask="false" />
+129-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:104:13-41
+130
+131        <!-- Servizio di accessibilità per touch -->
+132        <service
+132-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:107:9-118:19
+133            android:name="com.drivemirror.service.TouchInjectionService"
+133-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:108:13-58
+134            android:exported="true"
+134-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:109:13-36
+135            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+135-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:110:13-79
+136            <intent-filter>
+136-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:112:13-114:29
+137                <action android:name="android.accessibilityservice.AccessibilityService" />
+137-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:113:17-92
+137-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:113:25-89
+138            </intent-filter>
+139
+140            <meta-data
+140-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:115:13-117:65
+141                android:name="android.accessibilityservice"
+141-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:116:17-60
+142                android:resource="@xml/accessibility_service" />
+142-->C:\Users\Salvatore\Downloads\DriveMirror_v3\DriveMirror\app\src\main\AndroidManifest.xml:117:17-62
+143        </service>
+144
+145        <activity
+145-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:31:9-34:75
+146            android:name="androidx.car.app.CarAppPermissionActivity"
+146-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:32:13-69
+147            android:exported="false"
+147-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:33:13-37
+148            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+148-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:34:13-72
+149
+150        <receiver
+150-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:36:9-38:40
+151            android:name="androidx.car.app.notification.CarAppNotificationBroadcastReceiver"
+151-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:37:13-93
+152            android:exported="false" />
+152-->[androidx.car.app:app:1.4.0] C:\Users\Salvatore\.gradle\caches\transforms-4\7cae324c5c5f157631ddc3c5a8d46489\transformed\jetified-app-1.4.0\AndroidManifest.xml:38:13-37
+153
+154        <provider
+154-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+155            android:name="androidx.startup.InitializationProvider"
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+156            android:authorities="com.drivemirror.androidx-startup"
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+157            android:exported="false" >
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+158            <meta-data
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+159                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+160                android:value="androidx.startup" />
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Salvatore\.gradle\caches\transforms-4\d3d6f4f28f38af3f2370069ec46c478c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+161            <meta-data
+161-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+162                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+162-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+163                android:value="androidx.startup" />
+163-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Salvatore\.gradle\caches\transforms-4\e08d7604ec7ac251d41a91abcb17664d\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+164            <meta-data
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+166                android:value="androidx.startup" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+167        </provider>
+168
+169        <receiver
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+170            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+171            android:directBootAware="false"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+172            android:enabled="true"
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+173            android:exported="true"
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+174            android:permission="android.permission.DUMP" >
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+175            <intent-filter>
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+176                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+177            </intent-filter>
+178            <intent-filter>
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+179                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+179-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+180            </intent-filter>
+181            <intent-filter>
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+182                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+182-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+183            </intent-filter>
+184            <intent-filter>
+184-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+185                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+185-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Salvatore\.gradle\caches\transforms-4\2dd68092d6550ccf898df5c82fe667d1\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+186            </intent-filter>
+187        </receiver>
+188    </application>
+189
+190</manifest>
