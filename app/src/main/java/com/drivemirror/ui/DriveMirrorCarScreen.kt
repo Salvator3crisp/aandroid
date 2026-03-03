@@ -47,11 +47,7 @@ class DriveMirrorCarScreen(carContext: CarContext) : Screen(carContext) {
     private var virtualDisplay: VirtualDisplay? = null
     private var carSurface: Surface? = null
 
-    init {
-        instance = this
-        carContext.getCarService(androidx.car.app.AppManager::class.java)
-            .setSurfaceCallback(surfaceCallback)
-    }
+    private val surfaceCallback = object : SurfaceCallback {
         override fun onSurfaceAvailable(surfaceContainer: SurfaceContainer) {
             val surface = surfaceContainer.surface ?: return
             carSurface = surface
@@ -75,6 +71,7 @@ class DriveMirrorCarScreen(carContext: CarContext) : Screen(carContext) {
     }
 
     init {
+        instance = this
         carContext.getCarService(androidx.car.app.AppManager::class.java)
             .setSurfaceCallback(surfaceCallback)
     }
